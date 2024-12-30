@@ -1,0 +1,9 @@
+The issue is resolved by ensuring there are spaces around the arithmetic operators within the `calc()` function.  The correct code is:
+
+```css
+.element {
+  width: calc(100% + 50px);
+}
+```
+
+Adding spaces prevents errors and ensures proper calculation.
