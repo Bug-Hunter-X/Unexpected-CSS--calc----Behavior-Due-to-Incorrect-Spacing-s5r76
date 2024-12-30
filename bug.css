@@ -1,0 +1,11 @@
+The CSS property `calc()` is used to perform calculations within CSS. However, unexpected behavior may occur if spaces are not used correctly. For example, in the following code, omitting spaces around the `+` operator will result in an error:
+
+```css
+.element{width:calc(100% +50px);}
+```
+
+The correct syntax requires spaces around operators:
+
+```css
+.element{width:calc(100% + 50px);}
+```
